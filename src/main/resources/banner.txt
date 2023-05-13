@@ -1,0 +1,39 @@
+
+
+                   ${AnsiColor.CYAN}@@@                 ${AnsiColor.CYAN}@@@
+                  ${AnsiColor.CYAN}@@@@@               ${AnsiColor.CYAN}@@@@@
+                  ${AnsiColor.CYAN}@@@@@               ${AnsiColor.CYAN}@@@@@
+                  ${AnsiColor.CYAN}@@@@@               ${AnsiColor.CYAN}@@@@@
+                  ${AnsiColor.CYAN}@@@@@               ${AnsiColor.CYAN}@@@@@
+                  ${AnsiColor.CYAN}@@@@@               ${AnsiColor.CYAN}@@@@@
+                  ${AnsiColor.CYAN}@@@@@               ${AnsiColor.CYAN}@@@@@
+                  ${AnsiColor.CYAN}@@@@@  ${AnsiColor.CYAN}@@@@   ${AnsiColor.CYAN}@@@@  ${AnsiColor.CYAN}@@@@@
+                  ${AnsiColor.CYAN}@@@@@ ${AnsiColor.CYAN}@@@@@@ ${AnsiColor.CYAN}@@@@@@ ${AnsiColor.CYAN}@@@@@
+                  ${AnsiColor.CYAN}@@@@@ ${AnsiColor.CYAN}@@@@@@ ${AnsiColor.CYAN}@@@@@@ ${AnsiColor.CYAN}@@@@@
+                  ${AnsiColor.CYAN}@@@@@ ${AnsiColor.CYAN}@@@@@@ ${AnsiColor.CYAN}@@@@@@ ${AnsiColor.CYAN}@@@@@
+                  ${AnsiColor.CYAN}@@@@@ ${AnsiColor.CYAN}@@@@@@ ${AnsiColor.CYAN}@@@@@@ ${AnsiColor.CYAN}@@@@@
+                  ${AnsiColor.CYAN}@@@@@ ${AnsiColor.CYAN}@@@@
+                  ${AnsiColor.CYAN}@@@@@ ${AnsiColor.CYAN}@@@  ${AnsiColor.CYAN}@@@@@@@@@@@@@
+                  ${AnsiColor.CYAN}@@@@@ ${AnsiColor.CYAN}@@  ${AnsiColor.CYAN}@@@@@@@@@@@@@@@
+                  ${AnsiColor.CYAN}@@@@@@   ${AnsiColor.CYAN}@@@@@@@@@@@@@@@@@
+                  ${AnsiColor.CYAN}@@@@@@@@  ${AnsiColor.CYAN}@@@@@@@@@@@@@@@@@
+                  ${AnsiColor.CYAN}@@@@@@@@@@  ${AnsiColor.CYAN}@@@@@@@@@@@@@@@
+                  ${AnsiColor.CYAN}@@@@@@@@@@@@  ${AnsiColor.CYAN}@@@@@@@@@@@@@
+                  ${AnsiColor.CYAN}@@@@@@@@@@@@@  ${AnsiColor.CYAN}@@@@@@@@@@@
+                  ${AnsiColor.CYAN}@@@@@@@@@@@@@@ ${AnsiColor.CYAN}@@@@@@@@@@@
+                  ${AnsiColor.CYAN}@@@@@@@@@@@@@@@ ${AnsiColor.CYAN}@@@@@@@@@@
+                  ${AnsiColor.CYAN}@@@@@@@@@@@@@@@ ${AnsiColor.CYAN}@@@@@@@@@
+                   ${AnsiColor.CYAN}@@@@@@@@@@@@@@@@@@@@@@@
+                    ${AnsiColor.CYAN}@@@@@@@@@@@@@@@@@@@@@
+
+
+   ${AnsiColor.CYAN} ██████╗ ██████╗ ██████╗ ███████╗   ${AnsiColor.BLUE} ██╗  ██╗██████╗
+   ${AnsiColor.CYAN}██╔════╝██╔═══██╗██╔══██╗██╔════╝   ${AnsiColor.BLUE} ╚██╗██╔╝██╔══██╗
+   ${AnsiColor.CYAN}██║     ██║   ██║██║  ██║█████╗     ${AnsiColor.BLUE}  ╚███╔╝ ██║  ██║
+   ${AnsiColor.CYAN}██║     ██║   ██║██║  ██║██╔══╝     ${AnsiColor.BLUE}  ██╔██╗ ██║  ██║
+   ${AnsiColor.CYAN}╚██████╗╚██████╔╝██████╔╝███████╗   ${AnsiColor.BLUE} ██╔╝ ██╗██████╔╝
+   ${AnsiColor.CYAN} ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝   ${AnsiColor.BLUE} ╚═╝  ╚═╝╚═════╝
+
+
+
+${AnsiColor.BRIGHT_BLUE}:: Cristhiam Poma Mamani 🤓  :: Running Spring Boot ${spring-boot.version} :: ${AnsiColor.WHITE}

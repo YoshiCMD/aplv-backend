@@ -1,0 +1,71 @@
+logging:
+  level:
+    ROOT: DEBUG
+    org.hibernate.SQL: DEBUG
+    com.codexd.aplv: DEBUG
+
+spring:
+  devtools:
+    restart:
+      enabled: true
+      additional-exclude: static/**
+    livereload:
+      enabled: false # we use Webpack dev server + BrowserSync for livereload
+  jackson:
+    serialization:
+      indent-output: true
+  liquibase:
+    # Remove 'faker' if you do not want the sample data to be loaded automatically
+    contexts: dev, faker
+    url: jdbc:postgresql://localhost:5432/aplv
+  messages:
+    cache-duration: PT1S # 1 second, see the ISO 8601 standard
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/aplv
+    username: postgres
+    password: postgres
+  thymeleaf:
+    cache: false
+  sleuth:
+    # https://github.com/spring-projects/spring-framework/issues/27844#issuescomment-1002866885
+    # https://github.com/spring-cloud/spring-cloud-sleuth/issues/2094
+    async:
+      enabled: false
+    enabled: false
+    sampler:
+      probability: 1 # report 100% of traces
+  zipkin: # Use the "zipkin" Maven profile to have the Spring Cloud Zipkin dependencies
+    base-url: http://localhost:9411
+    enabled: false
+    locator:
+      discovery:
+        enabled: true
+
+server:
+  port: 8082
+
+application:
+  # CORS is disabled by default on microservices, as you should access them through a gateway.
+  # If you want to enable it, please uncomment the configuration below.
+  # cors:
+  #   allowed-origins: "http://localhost:9000,https://localhost:9000"
+  #   allowed-methods: "*"
+  #   allowed-headers: "*"
+  #   exposed-headers: "Authorization,Link,X-Total-Count"
+  #   allow-credentials: true
+  #   max-age: 1800
+  security:
+    authentication:
+      jwt:
+        # This token must be encoded using Base64 and be at least 256 bits long (you can type `openssl rand -base64 64` on your command line to generate a 512 bits one)
+        base64-secret: NTE3ZDllZGE0NGJmMTkxYjBhOGU4YzU0NDkxMmQxMmY4NzVhYTIyMzcwNDdiYzY4OTFhM2I1OGMzNDRlZmJiYTU2MmU1MWQxOWQ0NGI1N2JlZDExNGU0NTQzOTQ3MGEyZTJiYWQ3MTc4ZWJiZWNlZjUwMzUxNTc5YzMzZTdiYjU=
+        # Token is valid 24 hours
+        token-validity-in-seconds: 86400
+        token-validity-in-seconds-for-remember-me: 2592000
+  logging:
+    use-json-format: false # By default, logs are not in Json format
+    logstash: # Forward logs to logstash over a socket, used by LoggingConfiguration
+      enabled: false
+      host: localhost
+      port: 5000
+      queue-size: 512
